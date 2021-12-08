@@ -4,12 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Week8 Objects</title>
 
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>weekly prompts objects</h1>
+    <h1>weekly prompts - Week8 objects</h1>
+    <div class="functions">
+      <h3>1. Capitalise keys</h3>
+      <p>
+        Write a function capitaliseKeys, which takes an object as an argument,
+        and returns a new object with the same key-value pairs except all the
+        keys have been capitalised.
+      </p>
+      <span class="testInput">testSample = { abc: 1, minju: 2, asdf: 3 };</span
+      ><br />
+      <strong><span class="result"></span></strong>
+    </div>
+
+    <div class="functions">
+      <h3>2. String to object</h3>
+      <p>
+        Write a function stringToObject stringToObject takes one parameter, a
+        string. The string is made up of key-value pairs formatted as follows:
+        “key1:value1,key2:value2,…” stringToObject should return an object made
+        up of the key-value pairs in the string. Assume all values are strings.
+      </p>
+      <span class="testInput"
+        >testString = "tomato:vegetable , mayonaise: sauce , minju: person ,
+        scarf: clothes, -1: number";</span
+      ><br />
+      <strong><span class="result"></span></strong>
+    </div>
+
+    <div class="functions">
+      <h3>3. Going shopping</h3>
+      <p>
+        Write a function shoppingList that accepts a single parameter, a string.
+        The string is a list of ingredients, separated by a comma, formatted as
+        below: “2 tomatoes, 1 egg, 3 pumpkins” The function shoppingList should
+        return an object where the keys are the ingredient names, and the values
+        are the number of the ingredients needed.
+      </p>
+      <span class="testInput"
+        >shoppingStr = "2 milk, 1 mayonaise, 1 bisucuit, 2 water";</span
+      ><br />
+      <strong><span class="result"></span></strong>
+    </div>
+
+    <div class="functions">
+      <h3>4. Map Object</h3>
+      <p>
+        Write a function mapObject that takes two parameters: an object obj and
+        a function fn. mapObject should return a new object whose keys are the
+        same as those of obj, and whose values are the result of calling fn with
+        the values of obj.
+      </p>
+      <span class="testInput">testMap = { a: "b", c: "d", e: "f" };</span><br />
+      <span class="testInput">fn = &lpar; n &rpar; => n + " is alpahbet";</span
+      ><br />
+
+      <strong><span class="result"></span></strong>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
